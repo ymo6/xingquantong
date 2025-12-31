@@ -2,7 +2,7 @@
 
 :root {
     --primary-blue: #1a252f;
-    --accent-orange: #ff0000; /* Industrial yellow/orange */
+    --accent-orange: #8b3a3a; /* Industrial yellow/orange */
     --accent-red: #ff0000;
     --light-gray: #f4f4f4;
     --text-dark: #333;
@@ -49,7 +49,7 @@ header {
         /* 2. The Dark Tint: Keeps text readable */
         linear-gradient(rgba(26, 37, 47, 0.6), rgba(26, 37, 47, 0.6)), 
         /* 3. Your Image: Replace 'your-image.jpg' with your actual filename */
-        url('images/场地及办公室照片/楼车_背景.jpg');
+        url('images/场地及办公室照片/楼车_背景.webp');
     
     background-size: cover;
     background-position: center;
@@ -126,6 +126,7 @@ footer {
     padding: 30px;
     margin-top: 50px;
 }
+
 
 
 
