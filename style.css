@@ -42,13 +42,20 @@ nav a:hover {
 
 /* Hero Section */
 header {
-    background: linear-gradient(rgba(26, 37, 47, 0.8), rgba(26, 37, 47, 0.8)), 
-                url('https://images.unsplash.com/photo-1586191582056-a15cd117d1bb?auto=format&fit=crop&q=80&w=1200'); /* Placeholder truck image */
+    background: 
+        /* 1. The Fade Effect: Transitions to white at the bottom */
+        linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, var(--white) 100%),
+        /* 2. The Dark Tint: Keeps text readable */
+        linear-gradient(rgba(26, 37, 47, 0.6), rgba(26, 37, 47, 0.6)), 
+        /* 3. Your Image: Replace 'your-image.jpg' with your actual filename */
+        url('大背景.jpg');
+    
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 5%;
+    padding: 150px 5%; /* Increased padding for a better fade transition */
     text-align: center;
+    min-height: 60vh; /* Ensures enough height for the image to show and fade */
 }
 
 header h1 {
@@ -118,3 +125,4 @@ footer {
     padding: 30px;
     margin-top: 50px;
 }
+
