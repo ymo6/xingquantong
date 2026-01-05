@@ -48,7 +48,7 @@ header {
         /* 2. The Dark Tint: Keeps text readable */
         linear-gradient(rgba(26, 37, 47, 0.6), rgba(26, 37, 47, 0.6)), 
         /* 3. Your Image: Replace 'your-image.jpg' with your actual filename */
-        url('/images/office/hero-bg-small.webp');
+        url('/Users/alexandra/Desktop/website_XQT/images/office/hero-bg-small.webp');
     
     background-size: cover;
     background-position: center;
