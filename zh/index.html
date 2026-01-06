@@ -53,10 +53,18 @@
 
             <div class="card">
                 <h3>牵引车</h3>
-                <img src="../images/Products/MotorTractor1.webp" alt="640马力 HK 牵引车" style="width:100%; border-radius:5px; margin-bottom:15px;">
-                <p>640匹超强动力配合AMT自动挡与液缓，助您轻松征服各种路况，实现高效运营。</p>
+                <div class="slideshow-container" id="tractor-slides">
+                    <img class="mySlides" src="../images/Products/MotorTractor1.webp" style="width:100%">
+                    <img class="mySlides" src="../images/Products/MotorTractor2.webp" style="display:none; width:100%">
+                    <img class="mySlides" src="../images/Products/MotorTractor3.webp" style="display:none; width:100%">
+                    
+                    <a class="prev" onclick="plusSlides(-1, 'tractor-slides')">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 'tractor-slides')">&#10095;</a>
+                </div>
+                <p>640匹超强动力配合AMT自动挡与液缓，助您轻松征服各种路况，实现高效运营</p>
             </div>
-    
+
+        <script src="script.js"></script>
         </div>
     </section>
 
